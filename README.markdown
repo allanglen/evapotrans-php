@@ -4,19 +4,19 @@ evapotrans-php
 A PHP implementation of the United Nations Food and Agriculture Organization (FAO) Penman-Monteith evapotranspiration equation.
 
 For more information see:
-> http://en.wikipedia.org/wiki/Penman%E2%80%93Monteith_equation
-> http://www.fao.org/docrep/X0490E/x0490e00.htm
-> http://www.fao.org/nr/water/eto.html
+* http://en.wikipedia.org/wiki/Penman%E2%80%93Monteith_equation
+* http://www.fao.org/docrep/X0490E/x0490e00.htm
+* http://www.fao.org/nr/water/eto.html
 
 About
 -----
-I wrote this several years ago while hacking together an [evapotranpiration-based irrigation controller](http://blog.allanglen.com/2009/07/building-a-smart-irrigation-controller-part-1).  This part of the code ran in the cloud behind a REST API that my [home automation controller](http://www.universal-devices.com/residential/isy-99i/) would communicate with to determine irrigation requirements.
+I wrote this several years ago while hacking together an [evapotranspiration-based irrigation controller](http://blog.allanglen.com/2009/07/building-a-smart-irrigation-controller-part-1).  This part of the code ran in the cloud behind a REST API that my [home automation controller](http://www.universal-devices.com/residential/isy-99i/) would communicate with to determine irrigation requirements.
 
 [Univeral Devices](http://www.universal-devices.com/), the manufacturer of the controller, ultimately [integrated my design](http://forum.universal-devices.com/viewtopic.php?t=2682) (with my permission) into their firmware so this functionality is now available as an optional feature in all of their devices.
 
 When I was working on this at the time, I couldn't find a software implementation of the Penman-Monteith model (in any language) so hopefully this is useful to someone out there that is looking for a reference implementation.
 
-> Note: This worked really well for my purposes no guarantee is made pertaining to the correctness of this implementation.  Use at your own risk.
+> Note: While this worked really well for my purposes, no guarantees are made pertaining to the correctness of this implementation.  Use at your own risk.
 
 Description
 -----------
