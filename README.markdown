@@ -12,7 +12,7 @@ About
 -----
 I wrote this several years ago while hacking together an [evapotranspiration-based irrigation controller](http://blog.allanglen.com/2009/07/building-a-smart-irrigation-controller-part-1).  This part of the code ran in the cloud behind a REST API that my [home automation controller](http://www.universal-devices.com/residential/isy-99i/) would communicate with to determine irrigation requirements.
 
-[Univeral Devices](http://www.universal-devices.com/), the manufacturer of the controller, ultimately [integrated my design](http://forum.universal-devices.com/viewtopic.php?t=2682) (with my permission) into their firmware so this functionality is now available as an optional feature in all of their devices.
+[Universal Devices](http://www.universal-devices.com/), the manufacturer of the controller, ultimately [integrated my design](http://forum.universal-devices.com/viewtopic.php?t=2682) (with my permission) into their firmware so this functionality is now available as an optional feature in all of their devices.
 
 When I was working on this at the time, I couldn't find a software implementation of the Penman-Monteith model (in any language) so hopefully this is useful to someone out there that is looking for a reference implementation.
 
